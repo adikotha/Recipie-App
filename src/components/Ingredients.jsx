@@ -3,6 +3,7 @@ import styles from '../styles/Ingredients.module.css';
 export default function Ingredients({ recipieArray, isLoading }) {
   return (
     <div className={styles.ing}>
+      <h3>Ingredients</h3>
       {isLoading ? (
         <h2>Loading</h2>
       ) : (
