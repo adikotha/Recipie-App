@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Wet+Paint&display=swap');
+.head{
+    /* background-color: orange; */
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+    font-family: "Almendra", serif;
+  font-weight: 700;
+  color: aliceblue;
+  text-shadow: 5px black;
+}
+#emoji{
+    font-style: normal;
+}
+@media (max-width: 767px) {
+  .head {
+    font-size: 3rem; /* Reduce font size for mobile */
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .head {
+    font-size: 4.5rem; /* Adjust font size for tablets */
+  }
+}
+@media (min-width: 768px) {
+  .head {
+    font-size: 5rem; /* Increase font size for larger screens */
+  }
+}

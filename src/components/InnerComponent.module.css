@@ -1,0 +1,18 @@
+.inner{
+  background-color: none;
+  
+}
+.innerp{
+  /* background-color: aqua; */
+  flex: 1;
+  
+}
+
+@media (max-width: 768px) {
+  .inner {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+  .innerp {
+    flex: 0 0 100%; /* Make each innerp element take up 100% width */
+  }
+}

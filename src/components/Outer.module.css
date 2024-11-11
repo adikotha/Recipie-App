@@ -1,0 +1,23 @@
+.outer{
+    flex: 1;
+    margin: 2.5rem;
+
+}
+h2{
+    text-align: center
+}
+@media (max-width: 768px) {
+    .outer {
+      margin: 1rem; /* Reduce margin on smaller screens */
+    }
+  }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 20px; /* Reduce font size on smaller screens */
+    }
+  }
+  @media (max-width: 768px) {
+    .outer {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+  }

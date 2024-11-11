@@ -1,0 +1,22 @@
+.rec{
+    background-color: lightcoral;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    max-width: fit-content;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .rec {
+      padding: 0.5rem; /* Reduce padding on smaller screens */
+      margin: 0.5rem; /* Reduce margin on smaller screens */
+    }
+  }
+
+  @media (max-width: 576px) {
+    .rec {
+      background-color: lightblue; /* Change background color on very small screens */
+    }
+  }

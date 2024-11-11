@@ -1,0 +1,27 @@
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.cardcontainerclick{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .cardcontainer {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+      margin-right: 1rem;
+    }
+  }
+
+  .cardcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}

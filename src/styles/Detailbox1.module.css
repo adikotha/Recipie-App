@@ -1,0 +1,38 @@
+.dbox {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  /* margin: 1rem; */
+  margin-top: 1rem;
+  /* margin-right: 5; */
+  padding: 5px;
+  max-width: fit-content;
+  border-radius: 2rem; /* Simplified border-radius */
+  text-align: justify;
+  font-size: 1.3rem;
+  margin-left: 2.2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+}
+
+.row p {
+  margin: 0 75px; /* Remove default margin for better spacing */
+}
+
+@media (max-width: 768px) {
+  .dbox {
+    margin-left: 1rem; /* Remove left margin on smaller screens */
+  }
+
+  .row {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  .row p {
+    margin: 10px 0; /* Adjust margins for vertical layout */
+  }
+}

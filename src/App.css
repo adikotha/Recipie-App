@@ -1,0 +1,16 @@
+.input{
+    width: 15rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-style: italic;
+    font-style: oblique;
+}
+
+@media (max-width: 768px) {
+    .input {
+      width: 100%; /* Make the input take up the full width of its container */
+      height: 2rem; /* Maintain the height */
+    }
+  }

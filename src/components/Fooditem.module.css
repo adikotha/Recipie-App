@@ -1,0 +1,70 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightcoral;
+    padding: 1rem;
+    border: 1rem;
+    margin:1rem;
+    flex: 0 0 33.33%; /* This ensures each card takes up 1/3 of the width */
+  margin: 10px;
+  max-width: fit-content;
+  margin-left: 3.5rem;
+  margin: 1rem solid black;
+  text-align: center;
+}
+.cardImg{
+    height: 250px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.card {
+    /* ... your existing card styles ... */
+    flex: 0 0 33.33%; /* Initial width for larger screens */
+  }
+
+  .btn{
+    text-decoration: none;
+    padding: 0.7rem;
+    color: whitesmoke;
+    background-color: goldenrod;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 1re;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 0 0 50%;
+      margin-right: 2rem; /* Adjust width for medium screens (e.g., tablets) */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      flex: 0 0 100%; /* Make cards full-width for smaller screens (e.g., mobile) */
+      image-rendering: auto;
+      text-align: center;
+      margin-left: 2.7rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      flex: 0 0 50%; /* Adjust width for medium screens (e.g., tablets) */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      flex: 0 0 100%; /* Make cards full-width for smaller screens (e.g., mobile) */
+      image-rendering: auto;
+      text-align: center;
+      margin-left: 2.7rem;
+    }
+  }
