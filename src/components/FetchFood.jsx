@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const URL = "https://api.spoonacular.com/recipes/complexSearch";
 
 export default function FetchFood({ foodArray, setFoodArray }) {
-  const [query, setQuery] = useState("pasta");
+  const [query, setQuery] = useState("pizza");
   const Api_Key1=import.meta.env.VITE_API_KEY1;
 
   useEffect(() => {
