@@ -8,7 +8,7 @@ export default function FetchFood({ foodArray, setFoodArray }) {
 
   useEffect(() => {
     async function fetchFood() {
-
+const res= await fetch(`${URL}?query=${query}&apiKey=${Api_Key1}`)
 
         const data = await res.json();
         setFoodArray(data.results);
